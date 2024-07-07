@@ -1,0 +1,35 @@
+package main.java.DatabaseHealthcarePractise;
+
+public class Patient {
+    private int patientId;
+    private String patientName;
+    private String medicalHistory;
+
+    Patient(){
+
+    }
+    public Patient(int patientId , String patientName , String medicalHistory ){
+        this.patientId = patientId;
+        this.patientName = patientName;
+        this.medicalHistory = medicalHistory;
+    }
+    public int getPatientId() {
+        return patientId;
+    }
+    public void setPatientId(int patientId) {
+        this.patientId = patientId;
+    }
+    public String getPatientName() {
+        return patientName;
+    }
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
+    }
+    public String getMedicalHistory() {
+        return medicalHistory;
+    }
+    public void setMedicalHistory(String medicalHistory) {
+        this.medicalHistory = medicalHistory;
+    }
+
+}
